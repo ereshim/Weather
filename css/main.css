@@ -166,3 +166,104 @@ body {
 	color: #2e7695;
 	text-decoration: none;
 }
+
+@media (max-width: 767px) {
+  .header {
+    padding: 30px 15px 40px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .input,
+  .btn {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .card-city {
+    font-size: 24px;
+  }
+
+  .card-value {
+    font-size: 64px;
+  }
+
+  .card-description {
+    font-size: 16px;
+  }
+}
+
+/* Для планшетов и средних устройств */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    padding: 30px 15px 40px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .form {
+    width: 70%;
+  }
+
+  .input,
+  .btn {
+    font-size: 18px;
+  }
+
+  .card {
+    width: 80%;
+    padding: 25px;
+  }
+
+  .card-city {
+    font-size: 26px;
+  }
+
+  .card-value {
+    font-size: 80px;
+  }
+
+  .card-description {
+    font-size: 18px;
+  }
+}
+
+/* Для больших устройств (например, ноутбуков и десктопов) */
+@media (min-width: 1024px) {
+  .form {
+    width: 460px;
+  }
+
+  .input,
+  .btn {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 360px;
+  }
+
+  .card-city {
+    font-size: 28px;
+  }
+
+  .card-value {
+    font-size: 92px;
+  }
+
+  .card-description {
+    font-size: 20px;
+  }
+}
