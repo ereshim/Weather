@@ -33,7 +33,7 @@ function showError(error) {
 }
 //Запрос на сервер
 async function getWeather(city) {
-  const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
   console.log(url);
   const response = await fetch(url);
   const data = await response.json();
